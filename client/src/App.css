@@ -16,6 +16,17 @@
 .card {
   padding: 2em;
   border: 1px solid #eaeaea;
+
+  .post_id{
+    font-size: 10px;
+    font-style: italic;
+  }
+  .reda{
+    background-color: red;
+    margin-left: 15px;
+  }
+
+
 }
 .form {
   display: flex;
@@ -48,11 +59,27 @@ textarea {
   color: #888;
 }
 
+.section-container{
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.716);
+  display: grid;
+  place-items: center;
+
 .modal-form {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  gap: 1rem;
   margin-top: 20px;
+  border: 2px solid red;
+  width: 60%;
+  height: 40%;
+  background-color: rgba(0, 0, 0, 0.551);
 
   h3 {
     border-bottom: 3px solid;
@@ -60,6 +87,7 @@ textarea {
     margin: auto;
     transition: 1.5s;
     margin-bottom: 10px;
+    text-align: center;
   }
 
   .b-t-n {
@@ -90,4 +118,5 @@ textarea {
       }
     }
   }
+}
 }

@@ -1,7 +1,6 @@
 import PostsList from './features/posts/PostLists'
 import CreatePost from './features/posts/CreatePost'
 import './App.css'
-import UpdatePost from './features/posts/UpdatePost'
 
 function App() {
 
@@ -9,7 +8,6 @@ function App() {
     <>
       <CreatePost />
       <PostsList />
-      <UpdatePost />
     </>
   )
 }
